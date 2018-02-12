@@ -3,6 +3,7 @@
 int search(int arr[], int n, int x)
 {
 int i;
+  clrscr();
 for (i = 0; i < n; i++)
 {
 if (arr[i] == x)
@@ -18,5 +19,6 @@ scanf("%d",&arr[i]);
 scanf("%d", &x);
 printf("%d\n", search(arr, n, x));
 } 
+getch();
 return 0;
 }
