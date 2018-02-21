@@ -3,6 +3,7 @@
 int main(void)
 {
 	char n[10];
+	clrscr();
 	int m,i,flag;
 	scanf("%s",n);
 	m=strlen(n);
@@ -24,6 +25,6 @@ int main(void)
 		printf("\n yes");
 	}
 	
-
+   getch();
 	return 0;
 }
