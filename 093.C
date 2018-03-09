@@ -18,4 +18,4 @@ b=c;
 getch();
 return 0;
 }
-© 2018 GitHub, Inc.
+
