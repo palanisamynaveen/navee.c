@@ -1,5 +1,5 @@
 #include <stdio.h>
- #oinclude<conio.h>
+ #innclude<conio.h>
 int main() 
 {
 	int a,b,c,mod;
